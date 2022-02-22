@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index1</title>
+<body>
+    <script>
+        function msg3()
+        {
+            var c=document.getElementById("tes").value;
+            var d=document.getElementById("tes1").value;
+            var e=document.getElementById("dem").value;
+            var f=document.getElementById("result").value;
+          
+            if(c!=d)
+            {
+                alert("pls enter valid password  ");
+            }
+            else{
+                document.write("Password change successfull, pls refresh and click on return home page");
+             
+              
+            }
+            
+        }
+
+    </script>
+    <style>
+        #set{
+            padding:2%;
+        }
+        #tes{
+
+        height: 20px;
+        width: 300px;
+
+
+        }
+        #tes1{
+            height: 20px;
+        width: 300px;
+
+
+        }
+       
+    </style>
+    <div id="set">
+Reset password :<br><br>
+<input type="text" id="tes" placeholder="enter password"><br><br>
+<input type="password"id="tes1" placeholder="Re-enter password"><br><br>
+<input type="button" value="submit" id="sub" onclick="msg3()" style="height: 40px;width:150px;"><br><br>
+
+</div>
+<a href="demo1.html" id="dem">Return To Home Page</a>
+<span id="result">
+
+</span>
+</body>
+</head>
+</html>
